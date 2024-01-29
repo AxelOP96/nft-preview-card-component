@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.eth{
+    width: 320px;
+    border-radius: 10px;
+}
+
+.eth:hover, .view{
+
+    cursor: pointer;
+    opacity: 1;
+}
+.text, .time{
+    color:hsl(215, 51%, 70%);
+}
+.title{
+    padding: 10px 0;
+}
+.text{
+    font-size: 18px;
+}
+.title, strong, .attribution{
+    color: hsl(0, 0%, 100%);
+}
+.price{
+    color: hsl(178, 100%, 50%);
+}
+.line{
+    background-color: hsl(215, 32%, 27%);
+    height: 1.5px;
+    border-width: 0;
+}
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+.creation{
+    display: flex;
+    margin: 10px 0;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.center{
+    text-align: center;
+    padding: 10px;
+}
+@media(min-width: 1200px){
+    .container{
+        width: 29%;
+    }
+}
